@@ -1,0 +1,49 @@
+.root {
+  margin-left: 15px;
+}
+
+/*Стили для практического задания*/
+/*Обертка для сервиса*/
+.service {
+  background-color: rgb(9, 9, 66);
+  padding: 3rem;
+  display: grid;
+  color: aliceblue;
+  font-style: normal;
+  font-weight: 500;
+}
+
+/*Заголовок сервиса*/
+.service__title {
+  font-size: 22px;
+}
+
+/*Подзаголовок сервиса*/
+.service__subtitle {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  color: rgb(13, 212, 212);
+  font-size: 18px;
+}
+
+/*Обертка для полей ввода*/
+.service__input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/*Поля ввода*/
+.service__input_fio,
+.service__input_avatar,
+.service__input_comment {
+  border: 1.5px dashed rgb(13, 212, 212);
+  background: transparent;
+  margin-bottom: 25px;
+  width: 48%;
+}
+
+/*Поле ввода комментария*/
+.service__input_comment {
+  height: 200px;
+}
